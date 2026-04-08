@@ -13,6 +13,11 @@ Networking:
 -Mock API via URLProtocol using local JSON (mock_items.json)
 
 
+Search:
+Search is implemented in the ViewModel and filters across name, category, and tags.
+Keeping this logic in the ViewModel ensures separation of concerns and keeps views simple.
+
+
 State Handling:
 -The UI handles:
 -Loading
