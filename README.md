@@ -12,40 +12,13 @@ Getting Started:
 -Ensure mock_items.json is added to the app target
 -Build and run on simulator or device
 
-
-Architecture:
--The app follows MVVM with a simple service layer:
--Views: SwiftUI UI components
--ViewModels: Manage state and business logic
--Services:
-APIService (networking via URLSession + async/await)
-FavoritesService (UserDefaults persistence)
-
-
-Networking:
--Uses URLSession with async/await
--JSON decoded using Codable with ISO8601 date handling
--Mock API via URLProtocol using local JSON (mock_items.json)
-
-
-State Handling:
--The UI handles:
--Loading
--Success
--Empty results
--Error states
-
-
-Trade-offs
--Used UserDefaults for simplicity
--Used a mock API layer to keep the app self-contained
-
-
-Testing
-Includes minimal tests for:
-JSON decoding
-Favorites logic
-
+Features:
+-Browse list of devices
+-View item details
+-Search (name, category, tags)
+-Pull-to-refresh
+-Loading, empty, and error states
+-Favorites persistence across app launches
 
 Notes
 - The app uses a mock URL host (`https://tracker.local`) intercepted by `URLProtocol`.
