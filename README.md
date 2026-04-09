@@ -7,7 +7,7 @@ iOS 16+
 Xcode 15+
 
 Getting Started:
--Clone the repository
+-Clone the repository or Download Zip
 -Open the project in Xcode
 -Ensure mock_items.json is added to the app target
 -Build and run on simulator or device
