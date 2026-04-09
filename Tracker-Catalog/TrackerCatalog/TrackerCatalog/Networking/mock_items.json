@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "trk-1001",
+      "name": "Beacon Pro",
+      "category": "Beacons",
+      "summary": "Indoor location beacon for micro-positioning.",
+      "details": "Battery-powered BLE beacon with configurable intervals.",
+      "status": "active",
+      "tags": ["ble", "indoor"],
+      "lastUpdated": "2025-01-18T10:00:00Z",
+      "specs": {
+        "battery": "240mAh",
+        "connectivity": ["BLE"],
+        "dimensions": "30x30x8mm"
+      }
+    },
+    {
+      "id": "trk-1002",
+      "name": "Motion Sense X",
+      "category": "Sensors",
+      "summary": "Passive infrared motion detector.",
+      "details": "Adjustable sensitivity, 2-year battery life.",
+      "status": "offline",
+      "tags": ["pir", "battery"],
+      "lastUpdated": "2025-01-15T08:30:00Z",
+      "specs": {
+        "battery": "500mAh",
+        "connectivity": ["BLE"],
+        "dimensions": "48x48x12mm"
+      }
+    },
+    {
+      "id": "trk-1003",
+      "name": "Enviro Monitor",
+      "category": "Sensors",
+      "summary": "Temperature and humidity tracker.",
+      "details": "Calibrated probes with alert thresholds.",
+      "status": "active",
+      "tags": ["temperature", "humidity"],
+      "lastUpdated": "2025-01-10T13:45:00Z",
+      "specs": {
+        "battery": "600mAh",
+        "connectivity": ["BLE", "WiFi"],
+        "dimensions": "60x45x14mm"
+      }
+    },
+    {
+      "id": "trk-1004",
+      "name": "Gateway Lite",
+      "category": "Gateways",
+      "summary": "Edge gateway for multiplexing sensor data.",
+      "details": "Dual-band WiFi, cellular fallback.",
+      "status": "active",
+      "tags": ["edge", "wifi"],
+      "lastUpdated": "2025-01-20T09:10:00Z",
+      "specs": {
+        "battery": "N/A",
+        "connectivity": ["WiFi", "LTE"],
+        "dimensions": "120x80x28mm"
+      }
+    },
+    {
+      "id": "trk-1005",
+      "name": "Asset Tag Mini",
+      "category": "Trackers",
+      "summary": "Ultra-compact asset tracker.",
+      "details": "Geofencing and event history.",
+      "status": "active",
+      "tags": ["gps", "asset"],
+      "lastUpdated": "2025-01-12T19:20:00Z",
+      "specs": {
+        "battery": "300mAh",
+        "connectivity": ["BLE", "LTE-M"],
+        "dimensions": "35x35x7mm"
+      }
+    },
+    {
+      "id": "trk-1006",
+      "name": "Door Guard",
+      "category": "Sensors",
+      "summary": "Magnetic door open/close sensor.",
+      "details": "Instant alerts with low-latency profile.",
+      "status": "offline",
+      "tags": ["magnetic", "alert"],
+      "lastUpdated": "2025-01-11T07:05:00Z",
+      "specs": {
+        "battery": "220mAh",
+        "connectivity": ["BLE"],
+        "dimensions": "52x18x12mm"
+      }
+    }
+  ]
+}
